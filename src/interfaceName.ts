@@ -1,7 +1,9 @@
 export interface Options {
   /** The person first name */
   first: string;
-  /** The person last name */
+  /** The person last name
+   * @default 'Smith
+   */
   last?: string;
 }
 

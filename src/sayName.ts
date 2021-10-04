@@ -9,7 +9,10 @@ export function sayName({
 }: {
   /** The person first name */
   first: string;
-  /** The person last name */
+  /**
+   * The person last name
+   * @default 'Smith'
+   */
   last?: string;
 }): void {
   const name = `${first} ${last}`;
